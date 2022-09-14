@@ -1,3 +1,26 @@
+# CSD Robocon NITK Website
+
+[Canva Design](https://www.canva.com/design/DAE5oQ2Ou8E/share/preview?token=IQ7wFSrwH1dpg-AT7D1ijQ&role=EDITOR&utm_content=DAE5oQ2Ou8E&utm_campaign=designshare&utm_medium=link&utm_source=sharebutton)
+
+## Pages
+- About + What We Do
+- Gallery
+    - Robocon Lab
+    - Robots
+    - Competition
+- Robocon Themes 
+    - Year Wise Sub-pages
+    - Achievements
+- Robocon Team + Contact Us
+- Home Page
+- Sponsors/Supporters 
+
+## Future Plans
+- Blog (Robocon Diaries)
+- Member Login
+    - Resources
+    - Club Platforms
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
