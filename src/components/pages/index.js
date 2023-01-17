@@ -1,9 +1,11 @@
 import React, { useState } from "react";
 import HeroSection from "../HeroSection";
 import InfoSection from "../InfoSection";
+import InfoSectioncopy from "../ContactUs";
 import Navbar from "../Navbar";
 import Sidebar from "../Sidebar";
-import { homeObjOne, homeObjTwo, homeObjThree } from "../InfoSection/Data";
+import { homeObjOne, homeObjTwo} from "../InfoSection/Data";
+import { homeObjThree} from "../ContactUs/Data";
 import Services from "../Services";
 import Footer from "../Footer";
 import img1 from "../../images/sec-1.png";
@@ -25,7 +27,7 @@ import {
 } from "./PageStyle.js";
 
 const Home = () => {
-    const [isOpen, setIsOpen] = useState(false);
+    const [isOpen, setIsOpen] = useState(true);
 
     const toggle = () => {
         setIsOpen(!isOpen);
@@ -36,7 +38,7 @@ const Home = () => {
             <Sidebar isOpen={isOpen} toggle={toggle} />
             <Navbar toggle={toggle} />
             <HeroSection />
-            <InfoContainer lightBg={false} id={"abu"}>
+            <InfoContainer lightBg={false} id={"about"}>
                 <InfoWrapper>
                     <InfoRow imgStart={""}>
                         <Column1>
@@ -79,7 +81,7 @@ const Home = () => {
             {/* <InfoSection {...homeObjOne} /> */}
             <InfoSection {...homeObjTwo} />
             <Services />
-            <InfoSection {...homeObjThree} />
+            <InfoSectioncopy {...homeObjThree} />
             <Footer />
         </>
     );
