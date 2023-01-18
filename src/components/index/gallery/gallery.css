@@ -1,0 +1,43 @@
+#gallery {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#gallery #left {
+    width: 960px;
+    max-width: 70%;
+}
+
+#gallery #right {
+    width: calc(100vw - 1060px);
+    min-width: calc(30vw - 50px);
+}
+
+#gallery #left img {
+    max-width: 100%;
+}
+
+#gallery #right h2 {
+    margin-bottom: 80px;
+}
+
+
+
+@media screen and (max-width: 850px) {
+    #gallery {
+        flex-direction: column-reverse;
+    }
+
+    #gallery #left {
+        width: 100%;
+        max-width: initial;
+        padding: 30px 20px;
+    }
+
+    #gallery #right {
+        width: initial;
+        min-width: initial;
+        padding: 50px 0px;
+    }
+}

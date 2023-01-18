@@ -1,9 +1,10 @@
 import svg1 from "../../images/sec-1.png";
-import svg2 from "../../images/svg-2.svg";
+import svg2 from "../../images/collage.png";
 import svg3 from "../../images/svg-3.svg";
 
 export const homeObjOne = {
     id: "about",
+    to: "home",
     lightBg: false,
     lightText: true,
     lightTextDesc: true,
@@ -22,6 +23,7 @@ export const homeObjOne = {
 
 export const homeObjTwo = {
     id: "discover",
+    to: "home",
     lightBg: true,
     lightText: false,
     lightTextDesc: false,
@@ -39,6 +41,7 @@ export const homeObjTwo = {
 
 export const homeObjThree = {
     id: "signup",
+    to: "home",
     lightBg: true,
     lightText: false,
     lightTextDesc: false,
@@ -50,7 +53,7 @@ export const homeObjThree = {
     imgStart: false,
     img: svg3,
     alt: "Car",
-    dark: true,
+    dark: false,
     primary: true,
-    darkText: false,
+    darkText: true,
 };

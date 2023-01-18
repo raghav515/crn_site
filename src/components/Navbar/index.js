@@ -11,8 +11,6 @@ import {
     NavMenu,
     NavItem,
     NavLinks,
-    NavBtn,
-    NavBtnLink,
 } from "./NavbarElements";
 
 const Navbar = ({ toggle }) => {
@@ -58,7 +56,7 @@ const Navbar = ({ toggle }) => {
                             </NavItem>
                             <NavItem>
                                 <NavLinks
-                                    to="discover"
+                                    to="gallery"
                                     smooth={true}
                                     duration={500}
                                     spy={true}

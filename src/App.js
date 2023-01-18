@@ -2,6 +2,7 @@ import "./App.css";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "./components/pages";
 import SininPage from "./components/pages/signin";
+import React from 'react'
 
 function App() {
     return (
