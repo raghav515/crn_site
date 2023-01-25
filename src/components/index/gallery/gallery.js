@@ -11,7 +11,7 @@ export default function GallerySection () {
             <div id="right">
                 <h1>GALLERY</h1>
                 <h2>Snapshots</h2>
-                <a className="button">Learn More</a>
+                <a className="button" href="/gallery">View More</a>
             </div>
         </div>
     )
