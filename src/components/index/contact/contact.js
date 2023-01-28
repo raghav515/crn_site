@@ -13,7 +13,7 @@ export default function ContactSection () {
                 <h1>CONTACT US</h1>
                 <h2>Get in touch  us</h2>
                 
-                <form>
+                <form class="dark">
                     <label for="name">Name</label>
                     <br/>
                     <input id="name" value={name} type="text" onChange={(e) => setName(e.target.value)} />

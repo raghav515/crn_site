@@ -6,7 +6,7 @@ export const ServicesContainer = styled.div`
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background: #010606;
+    background: var(--dark-bg);
 
     @media screen and (max-width: 480px) {
         height: 1100px;

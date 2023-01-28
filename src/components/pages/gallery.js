@@ -13,7 +13,7 @@ export default function Gallery () {
 
 
     return (
-        <div id="gallery-page">
+        <div id="gallery-page" className='dark'>
             <Sidebar isOpen={isOpen} toggle={toggle} />
             <Navbar toggle={toggle} />
             <div id="container" className="dark">

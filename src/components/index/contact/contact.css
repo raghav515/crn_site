@@ -4,6 +4,7 @@
     justify-content: center;
     gap: 50px;
     padding: 100px 30px;
+    background-color: var(--bg);
 }
 
 #contact #left {
@@ -25,14 +26,14 @@
 
 
 #contact form {
-    background-color: black;
+    background-color: var(--bg);
     padding: 40px;
     margin: 50px 0px;
     border-radius: 10px;
 }
 
 #contact label {
-    color: white;
+    color: var(--color);
 }
 
 #contact input, #contact textarea {

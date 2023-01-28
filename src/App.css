@@ -1,9 +1,9 @@
 :root {
     --light-bg: #f9f9f9;
-    --dark-bg: #010606;
+    --dark-bg: #190133;
     --light-text: #f7f8fa;
     --dark-text: #100606;
-    --accent: #01bf71;
+    --accent: #9f6bff;
 }
 
 .dark {
@@ -12,8 +12,8 @@
 }
 
 .light {
-    --bg: var(--light-text);
-    --color: var(--dark-bg);
+    --bg: var(--light-bg);
+    --color: var(--dark-text);
 }
 
 * {
@@ -55,7 +55,7 @@ p {
     background: var(--accent);
     white-space: nowrap;
     padding: 14px 48px;
-    color: var(--color);
+    color: var(--light-text);
     font-size:  16px;
     outline: none;
     border: 1px solid var(--bg);
@@ -72,6 +72,6 @@ p {
 .button:hover {
     transition: all 0.2s ease-in-out;
     background: var(--bg);
-    color: var(--color);
-    border-color: var(--color);
+    color: var(--accent);
+    border-color: var(--accent);
 }

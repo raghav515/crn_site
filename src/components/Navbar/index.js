@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import { FaBars } from "react-icons/fa";
 import { IconContext } from "react-icons/lib";
 import { animateScroll as scroll } from "react-scroll/modules";
+import logo from "../../images/logo.png"
 
 import {
     Nav,
@@ -35,7 +36,7 @@ const Navbar = ({ toggle }) => {
                 <Nav scrollNav={scrolNav}>
                     <NavbarContainer>
                         <NavLogo to="/" onClick={toggleHome}>
-                            Robocon
+                            <img src={logo} style={{maxHeight: "80px", padding: "10px" }}/>
                         </NavLogo>
                         <MobileIcon onClick={toggle}>
                             <FaBars />
